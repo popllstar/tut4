@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Xin_Yang.Test1
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 s <<< FAILURE! - in Xin_Yang.Test1
+Testsubtract  Time elapsed: 0.048 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <4>
+	at Xin_Yang.Test1.Testsubtract(Test1.java:16)
+

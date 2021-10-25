@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- for more information, see the documentation of this POM: https://maven.apache.org/pom/maven/ -->
+  <parent>
+    <groupId>org.apache</groupId>
+    <artifactId>apache</artifactId>
+    <version>21</version>
+    <relativePath>../asf/pom.xml</relativePath>
+  </parent>
+
+  <groupId>org.apache.maven</groupId>
+  <artifactId>maven-parent</artifactId>
+  <version>33</version>
+  <packaging>pom</packaging>
+
+  <name>Apache Maven</name>
+  <description>Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.</description>
+  <url>https://maven.apache.org/</url>
+  <inceptionYear>2002</inceptionYear>
+
+  <!-- Developers listed by PMC Chair, PMC, Committers, Contributers, all alphabetical-->
+  <developers>
+    <developer>
+      <id>rfscholte</id>
+      <name>Robert Scholte</name>
+      <email>rfscholte@apache.org</email>
+      <roles>
+        <role>PMC Chair</role>
+      </roles>
+      <timezone>Europe/Amsterdam</timezone>
+    </developer>
+    <developer>
+      <id>aheritier</id>
+      <name>Arnaud Héritier</name>
+      <email>aheritier@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>andham</id>
+      <name>Anders Hammar</name>
+      <email>andham@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>baerrach</id>
+      <name>Barrie Treloar</name>
+      <email>baerrach@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Australia/Adelaide</timezone>
+    </developer>
+    <developer>
+      <id>bimargulies</id>
+      <name>Benson Margulies</name>
+      <email>bimargulies@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>America/New_York</timezone>
+    </developer>
+    <developer>
+      <id>brianf</id>
+      <name>Brian Fox</name>
+      <email>brianf@apache.org</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>cstamas</id>
+      <name>Tamas Cservenak</name>
+      <email>cstamas@apache.org</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>dennisl</id>
+      <name>Dennis Lundberg</name>
+      <email>dennisl@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>dkulp</id>
+      <name>Daniel Kulp</name>
+      <email>dkulp@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>evenisse</id>
+      <name>Emmanuel Venisse</name>
+      <email>evenisse@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>gboue</id>
+      <name>Guillaume Boué</name>
+      <email>gboue@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
+      <id>hboutemy</id>
+      <name>Hervé Boutemy</name>
+      <email>hboutemy@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Paris</timezone>
+    </developer>
+    <developer>
+      <id>ifedorenko</id>
+      <name>Igor Fedorenko</name>
+      <email>igor@ifedorenko.com</email>
+      <organization>Sonatype</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>jvanzyl</id>
+      <name>Jason van Zyl</name>
+      <email>jason@maven.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>khmarbaise</id>
+      <name>Karl Heinz Marbaise</name>
+      <email>khmarbaise@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>krosenvold</id>
+      <name>Kristian Rosenvold</name>
+      <email>krosenvold@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>mkleint</id>
+      <name>Milos Kleint</name>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>olamy</id>
+      <name>Olivier Lamy</name>
+      <email>olamy@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Australia/Melbourne</timezone>
+    </developer>
+    <developer>
+      <id>michaelo</id>
+      <name>Michael Osipov</name>
+      <email>michaelo@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+    <developer>
+      <id>rgoers</id>
+      <name>Ralph Goers</name>
+      <email>rgoers@apache.org</email>
+      <organization>Intuit</organization>
+      <timezone>-8</timezone>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>snicoll</id>
+      <name>Stephane Nicoll</name>
+      <email>snicoll@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+    <developer>
+      <id>stephenc</id>
+      <name>Stephen Connolly</name>
+      <email>stephenc@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+    <developer>
+      <id>tibordigana</id>
+      <name>Tibor Digaňa</name>
+      <email>tibordigana@apache.org</email>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>Europe/Bratislava</timezone>
+    </developer>
+    <developer>
+      <id>vsiveton</id>
+      <name>Vincent Siveton</name>
+      <email>vsiveton@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+    <developer>
+      <id>wfay</id>
+      <name>Wayne Fay</name>
+      <email>wfay@apache.org</email>
+      <organization>ASF</organization>
+      <roles>
+        <role>PMC Member</role>
+      </roles>
+      <timezone>-6</timezone>
+    </developer>
+
+    <!--Committers-->
+    <developer>
+      <id>adangel</id>
+      <name>Andreas Dangel</name>
+      <email>adangel@apache.org</email>
+      <timezone>Europe/Berlin</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>bdemers</id>
+      <name>Brian Demers</name>
+    
